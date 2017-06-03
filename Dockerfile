@@ -1,4 +1,6 @@
 FROM postgres:9.6
+LABEL maintainer "mkordi@gmail.com"
+
 ARG database
 ARG user
 ARG pass
